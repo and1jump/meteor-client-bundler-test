@@ -1,0 +1,15 @@
+{
+  "runtime": {
+    "DDP_DEFAULT_CONNECTION_URL": "http://localhost:3000/"
+  },
+  "import": [
+    "meteor-base",
+    "mongo",
+    "cfs:standard-packages",
+    "cfs:gridfs",
+    "react-meteor-data"
+  ],
+  "externalNpmPackages": ["@babel/runtime", "meteor-node-stubs", "@react"],
+  "npmInstall": false,
+  "generateNodeModules": true
+}
